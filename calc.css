@@ -1,0 +1,51 @@
+button
+{
+    background-color:black;
+    color:white;
+    width:100px;
+    height:100px;
+    border-radius:500px;
+    border:none;
+    font-size:3rem;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+
+#keys
+{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:20px;
+}
+
+#calculator
+{
+    background-color: rgb(47, 45, 45);
+    overflow: hidden;
+    max-width: 500px;
+    border-radius: 15px;
+
+}
+
+#display
+{
+    width:100%;
+    font-size: 5rem;
+    padding:25px;
+    border:none;
+    background-color: black;
+    color:white;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sym
+{
+    background-color:rgb(25, 0, 255);
+}
